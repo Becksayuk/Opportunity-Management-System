@@ -55,6 +55,7 @@ mark{
     color: #951D82;
 }
 .bg-image{ width: 1300px;
+    height: 600px;
     display: flex;
 }
 .Opportunitydes{
@@ -63,7 +64,6 @@ mark{
     color: black;
     background-color: white;
     box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
-    margin-top: 100px;
     right: 162px;
     top: 260px;
     padding-bottom: 150px;
@@ -89,8 +89,18 @@ p{
 }
 .servimg{
     transition: all 0.3s ease 0s;
-    margin-left: 60px;
+    margin-left: 100px;
     width: 70px;
+    border-color: white;
+    border-style: dashed;
+    border-radius: 50%;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+}
+.serveimg{
+    transition: all 0.3s ease 0s;
+    margin-left: 100px;
+    width: 80px;
+    height: 70px;
     border-color: white;
     border-style: dashed;
     border-radius: 50%;
@@ -99,7 +109,7 @@ p{
 .Services{
     color: black;
     text-align: center;
-    font-family: Manrope, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: bold;
     margin-top: 20px;
 }
@@ -108,8 +118,8 @@ p{
     justify-content: space-between;
     margin-top: 40px;
     align-items: center;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 100px;
+    margin-right: 80px;
 }
 .job{
     align-items: center;
@@ -120,14 +130,18 @@ p{
     border-color: white;
     border-top-color: #951D82;
     margin-top: 20px;
-    width: 200px;
+    width: 350px;
+    border-radius: 10px;
    
 }
 .text{
     text-align: center;
+    width: 250px;
+    font:  sans-serif;
+    font-size: small;
 }
 .aboutimg{
-    width: 300px;
+    width: 400px;
     border-radius: 20px;
     margin-top: 50px;
     margin-left: 100px;
@@ -140,20 +154,21 @@ p{
 }
 .abttxt{
     position: absolute;
-    width: 350px;
-    right: 150px;
-    top: 1450px;
+    width: 700px;
+    right: 40px;
+    top: 1150px;
+    text-align: start;
 }
 h5{
     position: absolute;
     width: 350px;
     right: 150px;
-    top: 1400px;
+    top: 1100px;
     font-size: larger;
 }
 h4{
     transition: all 0.3s ease 0s;
-    margin-left: 60px;
+    text-align: center;
     
 }
 .customer{
@@ -164,7 +179,8 @@ h4{
     border-color: white;
     border-top-color: #951D82;
     margin-top: 20px;
-    width: 200px;
+    width: 350px;
+    border-radius: 10px;
    
 }
 .text1{
@@ -177,6 +193,7 @@ h4{
     width: 100px;
     border-radius: 60px;
     margin-left: 100px;
+    margin-top: 20px;
 }
 .feedback{
     align-items: center;
@@ -187,22 +204,23 @@ h4{
     border-color: white;
     margin-top: 20px;
     width: 300px;
+    border-radius: 10px;
    
 }
 .emp{
     text-align: center;
+    
+    
 }
 .name{
-    margin-left: 80px;
-    margin-bottom: 5px;
+    text-align: center;
 }
 article{
     background-color: #951d812d;
 }
 .foot{
-    font-size: xx-small;
-    width: 1oopx;
-    margin-top: 10px;
+    font-size: small;
+ 
 }
 
 
