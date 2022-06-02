@@ -115,6 +115,10 @@ section .contentBx .formBx .inputBx input[type="submit"] {
   border-radius: 10px;
 }
 
+section .contentBx .formBx .inputBx input[type="submit"]:hover {
+  background: #bd3f69;
+}
+
 span input[type="submit"] {
   background: #8d1760;
   color: #fff;
