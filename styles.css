@@ -1,21 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 section {
   position: relative;
   width: 100%;
   height: 100vh;
   display: flex;
 }
+
 section .imgBx {
   position: relative;
   width: 55%;
   height: 100%;
 }
+
 section .imgBx:before {
   content: "";
   position: absolute;
@@ -25,6 +29,7 @@ section .imgBx:before {
   height: 100%;
   z-index: 1;
 }
+
 section .imgBx img {
   position: absolute;
   top: 0;
@@ -33,6 +38,7 @@ section .imgBx img {
   height: 100%;
   object-fit: cover;
 }
+
 section .contentBx {
   display: flex;
   width: 45%;
@@ -40,9 +46,11 @@ section .contentBx {
   justify-content: center;
   align-items: center;
 }
+
 section .contentBx .formBx {
   width: 60%;
 }
+
 section .contentBx .formBx h2 {
   color: #8d1760;
   font-weight: 600;
@@ -52,6 +60,7 @@ section .contentBx .formBx h2 {
   display: block;
   letter-spacing: 1px;
 }
+
 section .contentBx .formBx p {
   color: #0e1113;
   font-weight: 400;
@@ -59,6 +68,7 @@ section .contentBx .formBx p {
   display: block;
   text-align: center;
 }
+
 section .contentBx .formBx .inputBx {
   display: block;
   border-radius: 10px;
@@ -67,12 +77,14 @@ section .contentBx .formBx .inputBx {
   margin: 10px 0px;
   margin-bottom: 20px;
 }
+
 section .contentBx .formBx .inputBx svg {
   height: 17px;
   margin-bottom: -3px;
   margin-left: -470px;
   margin-right: 1px;
 }
+
 section .contentBx .formBx .inputBx input {
   width: 98%;
   font-size: 16px;
@@ -87,6 +99,7 @@ section .contentBx .formBx .inputBx input {
   font-weight: 500;
   border-radius: 10px;
 }
+
 section .contentBx .formBx .inputBx input[type="submit"] {
   background: #8d1760;
   color: #fff;
@@ -101,6 +114,7 @@ section .contentBx .formBx .inputBx input[type="submit"] {
   cursor: pointer;
   border-radius: 10px;
 }
+
 span input[type="submit"] {
   background: #8d1760;
   color: #fff;
@@ -117,17 +131,21 @@ span input[type="submit"] {
   cursor: pointer;
   border-radius: 10px;
 }
+
 span input[type="submit"]:hover {
   background: #bd3f69;
 }
+
 section .contentBx .formBx .inputBx p {
   color: #101314;
   font-weight: 520;
   margin-top: 10px;
 }
+
 section .contentBx .formBx .inputBx p a:hover {
   color: #bd3f69;
 }
+
 section .contentBx .formBx .inputBx p a {
   color: #8d1760;
 }
