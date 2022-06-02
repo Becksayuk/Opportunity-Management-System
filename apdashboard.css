@@ -1,0 +1,53 @@
+form{
+    display: flex;
+    border-color: white;
+    border-top-color: #951D82;
+    border-style: solid;
+    text-align: center;
+    margin-top: 120px;
+    width: 600px;
+    margin-left: 400px;
+    padding-bottom: 10px;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+    height: 600px;
+}
+.snippet{
+  text-align: center;
+    
+}
+button{
+    margin-top: 20px;
+    padding: 9px 25px;
+    background-color: #951D82;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    margin-right: 20px;
+    color: white;
+}
+p{
+    margin-left: 80px;
+}
+.check{
+     text-align: start;
+}
+input{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.snippets2{
+    text-align: center;
+}
+.GFG {
+    background-color: #951D82;
+    color:white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+    text-decoration:none;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+}
