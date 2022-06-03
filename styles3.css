@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Manrope, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  background-color: rgba(0, 0, 0, 0.066);
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+}
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+li,
+a {
+  color: black;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+li a {
+  transition: all 0.3s ease 0s;
+  margin-right: 20px;
+}
+a:hover {
+  color: #951d82;
+}
+.logout button {
+  padding: 9px 25px;
+  background-color: #951d82;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  margin-right: 20px;
+  color: white;
+}
+.search input[type="text"] {
+  border-radius: 20px;
+  padding: 3px;
+  padding-left: 20px;
+  width: 80%;
+}
+.logout button:hover {
+  background-color: #420738;
+}
+h3 {
+  margin-right: auto;
+  margin-left: 20px;
+}
+mark {
+  background-color: rgba(0, 0, 0, 0);
+  color: #951d82;
+}
+.leftside {
+  width: 33%;
+  background-color: rgb(212, 212, 212);
+}
+.middleside {
+  width: 34%;
+  background-color: rgb(202, 202, 202);
+}
+.middleside button {
+  padding: 9px 25px;
+  margin-left: 40%;
+  background-color: #951d82;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  margin-right: 20px;
+  color: white;
+}
+.middleside button:hover {
+  background-color: #420738;
+}
+.rightside {
+  width: 33%;
+  background-color: rgb(214, 214, 214);
+}
+.formBx {
+  margin: 40px 130px 50px 130px;
+  border: none;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  border-top: 3px solid #951d82;
+  height: 37%;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 17px;
+  color: black;
+  letter-spacing: 1px;
+}
+.formBx a {
+  color: #951d82;
+}
+.formBx p {
+  font-size: 19px;
+  font-weight: 500;
+}
+.formBx button {
+  border-radius: 20px;
+  color: white;
+  margin: 45px 10px 15px 10px;
+  padding: 7px 20px;
+}
+.cancel_delete button {
+  background-color: black;
+}
+.cancel_delete button:hover {
+  background-color: rgb(77, 77, 77);
+}
+.pending button {
+  background-color: #951d82;
+}
+.pending button:hover {
+  background-color: #420738;
+}

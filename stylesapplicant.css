@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Manrope, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  background-color: rgba(0, 0, 0, 0.066);
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+li,
+a {
+  color: black;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+li a {
+  transition: all 0.3s ease 0s;
+  margin-right: 20px;
+}
+a:hover {
+  color: #951d82;
+}
+.logout button {
+  padding: 9px 25px;
+  background-color: #951d82;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  margin-right: 20px;
+  color: white;
+}
+.buttons {
+  margin: 40px;
+}
+.buttons1 {
+  margin: 40px;
+}
+.buttons button:hover {
+  background: rgb(218, 218, 218);
+  color: rgb(0, 61, 153);
+}
+.buttons1 button:hover {
+  background: rgb(218, 218, 218);
+  color: rgb(0, 61, 153);
+}
+.buttons1 button {
+  background-color: rgb(250, 250, 250);
+  padding: 20px;
+  width: 90%;
+  letter-spacing: 2px;
+  display: block;
+  border: none;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 19px;
+  color: black;
+}
+.buttons button {
+  background-color: rgb(250, 250, 250);
+  padding: 20px;
+  width: 95%;
+  letter-spacing: 2px;
+  display: block;
+  border: none;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 19px;
+  color: black;
+}
+.minibuttons button {
+  background-color: rgb(250, 250, 250);
+  padding: 5px;
+  width: 10%;
+  letter-spacing: 2px;
+  display: inline;
+  border: none;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: none;
+  margin-left: 80%;
+  font-size: 19px;
+  color: black;
+}
+.search input[type="text"] {
+  border-radius: 20px;
+  padding: 3px;
+  padding-left: 20px;
+  width: 80%;
+}
+.logout button:hover {
+  background-color: #420738;
+}
+.viewall button:hover {
+  background-color: #420738;
+}
+.viewall1 button:hover {
+  background-color: #420738;
+}
+.viewallopp button:hover {
+  background-color: #420738;
+}
+h3 {
+  margin-right: auto;
+  margin-left: 20px;
+}
+mark {
+  background-color: rgba(0, 0, 0, 0);
+  color: #951d82;
+}
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin: 40px 20px 30px 30px;
+}
+.leftside {
+  width: 35%;
+}
+.woman {
+  width: 20%;
+  border-radius: 50%;
+  display: flex;
+}
+.rightside {
+  width: 65%;
+}
+.centerBx {
+  width: 100%;
+  margin: none;
+}
+.formBx {
+  border: none;
+  border-radius: 10px;
+  background: #f5e2f1;
+  height: 65%;
+  margin: -65px 180px 0px 10px;
+}
+.formBx p {
+  margin-left: 30px;
+  margin-right: 40px;
+  text-align: justify;
+  font-size: 19px;
+  padding-top: 90px;
+}
+.rightside p {
+  font-size: 23px;
+  margin-left: 40px;
+}
+.centerBx p {
+  font-size: 23px;
+  margin-left: 40px;
+}
+.viewall1 button {
+  margin-left: 80%;
+  padding: 9px 25px;
+  background-color: #951d82;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  color: white;
+}
+.viewall button {
+  margin-left: 45%;
+  padding: 9px 25px;
+  background-color: #951d82;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  color: white;
+}
+.viewallopp button {
+  margin-left: 83%;
+  padding: 9px 25px;
+  background-color: #951d82;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  color: white;
+}
