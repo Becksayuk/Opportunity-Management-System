@@ -36,15 +36,18 @@ li a {
   margin-right: 20px;
 }
 a:hover {
-  color: #951d82;
+  color: #bd3f69;
 }
 .logout button {
   padding: 9px 25px;
-  background-color: #951d82;
+  background-color: #8d1760;
   border-radius: 50px;
   transition: all 0.3s ease 0s;
   cursor: pointer;
   margin-right: 20px;
+  outline: none;
+  font-weight: 500;
+  border: none;
   color: white;
 }
 .buttons {
@@ -66,6 +69,7 @@ a:hover {
   padding: 20px;
   width: 90%;
   letter-spacing: 2px;
+  outline: none;
   display: block;
   border: none;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
@@ -81,6 +85,7 @@ a:hover {
   width: 95%;
   letter-spacing: 2px;
   display: block;
+  outline: none;
   border: none;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
@@ -110,16 +115,16 @@ a:hover {
   width: 80%;
 }
 .logout button:hover {
-  background-color: #420738;
+  background: #bd3f69;
 }
 .viewall button:hover {
-  background-color: #420738;
+  background: #bd3f69;
 }
 .viewall1 button:hover {
-  background-color: #420738;
+  background: #bd3f69;
 }
 .viewallopp button:hover {
-  background-color: #420738;
+  background: #bd3f69;
 }
 h3 {
   margin-right: auto;
@@ -127,7 +132,7 @@ h3 {
 }
 mark {
   background-color: rgba(0, 0, 0, 0);
-  color: #951d82;
+  color: #bd3f69;
 }
 section {
   position: relative;
@@ -154,7 +159,7 @@ section {
 .formBx {
   border: none;
   border-radius: 10px;
-  background: #f5e2f1;
+  background: #f5e6f3;
   height: 65%;
   margin: -65px 180px 0px 10px;
 }
@@ -176,8 +181,11 @@ section {
 .viewall1 button {
   margin-left: 80%;
   padding: 9px 25px;
-  background-color: #951d82;
+  background-color: #8d1760;
   border-radius: 50px;
+  border: none;
+  outline: none;
+  font-weight: 500;
   transition: all 0.3s ease 0s;
   cursor: pointer;
   color: white;
@@ -185,18 +193,25 @@ section {
 .viewall button {
   margin-left: 45%;
   padding: 9px 25px;
-  background-color: #951d82;
   border-radius: 50px;
-  transition: all 0.3s ease 0s;
+  margin-right: 20px;
+  background-color: #8d1760;
+  color: #fff;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-weight: 500;
   cursor: pointer;
-  color: white;
 }
 .viewallopp button {
   margin-left: 83%;
   padding: 9px 25px;
-  background-color: #951d82;
   border-radius: 50px;
-  transition: all 0.3s ease 0s;
   cursor: pointer;
-  color: white;
+  background-color: #8d1760;
+  color: #fff;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-weight: 500;
 }

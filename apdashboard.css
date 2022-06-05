@@ -1,126 +1,165 @@
-form{
-    display: flex;
-    border-color: white;
-    border-top-color: #951D82;
-    border-style: solid;
-    text-align: center;
-    margin-top: 120px;
-    width: 600px;
-    margin-left: 400px;
-    padding-bottom: 10px;
-    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
-    height: 600px;
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-.snippet{
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Manrope, sans-serif, Arial, Helvetica, sans-serif;
+}
+form {
+  display: flex;
+  border-color: white;
+  border-top-color: #951d82;
+  border-style: solid;
   text-align: center;
-    
+  margin-top: 120px;
+  width: 600px;
+  margin-left: 400px;
+  padding-bottom: 10px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  height: 600px;
 }
-button{
-    margin-top: 20px;
-    padding: 9px 25px;
-    background-color: #951D82;
-    border-radius: 50px;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    margin-right: 20px;
-    color: white;
+.snippet {
+  text-align: center;
 }
-p{
-    margin-left: 80px;
+.check {
+  text-align: start;
 }
-.check{
-     text-align: start;
+section {
+  width: 100%;
+  text-align: center;
 }
-input{
-    margin-top: 0px;
-    border-radius: 5px;
-}
-.snippets2{
-    text-align: center;
+.snippets2 {
+  text-align: center;
 }
 .GFG {
-    background-color: #951D82;
-    color:white;
-    border-radius: 10px;
-    padding: 5px 10px;
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
-    margin: 10px 30px;
-    cursor: pointer;
-    text-decoration:none;
-    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
-}
-.nav{
-    background-color: rgba(0, 0, 0, 0.066);
-    justify-content: flex-end;
-    display: flex;
-    align-items: center;
-    padding: 30px 10px;
-    padding: 0;
-    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+  background-color: #951d82;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 30px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-li, a{
-  
-    color: black;
-    text-decoration: none;
-    
-}
-li{
-    list-style: none;
-    display: inline-block;
-    padding: 0px 20px;
+.nav {
+  background-color: rgba(0, 0, 0, 0.066);
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-li a{
-  
-    transition: all 0.3s ease 0s;
-    margin-right: 20px;
+li,
+a {
+  color: black;
+  text-decoration: none;
 }
-a:hover{
-    color:#951D82;
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
 }
-button{
-    padding: 9px 25px;
-    background-color: #951D82;
-    border-radius: 50px;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    margin-right: 20px;
-    margin-top: 2px;
-    color: white;
+
+li a {
+  transition: all 0.3s ease 0s;
+  margin-right: 20px;
 }
-button:hover{
-    background-color: #420738; 
+a:hover {
+  color: #bd3f69;
 }
-h3{
-    margin-right: auto;
-    margin-left: 20px;
+button {
+  padding: 9px 25px;
+  background-color: #8d1760;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-right: 20px;
+  outline: none;
+  font-weight: 500;
+  border: none;
+  color: white;
 }
-mark{
-    background-color: rgba(0, 0, 0, 0) ;
-    color: #951D82;
+button:hover {
+  background-color: #bd3f69;
 }
-.recent{
-   margin-left: 1000px;
+h3 {
+  margin-right: auto;
+  margin-left: 20px;
 }
-.profile{
-    background-color: #951d8158;
-    width: 250px;
-    height: 400px;
-    margin-left: 30px;
+mark {
+  background-color: rgba(0, 0, 0, 0);
+  color: #bd3f69;
 }
-.prof{
-    margin-top: 20px;
+.recent {
+  margin-left: 1000px;
 }
-h4{
-    margin-left: 50px;
-    margin-top: 70px;
+.profile {
+  background-color: #951d8158;
+  width: 250px;
+  height: 400px;
+  margin-left: 30px;
 }
-.create{
-    text-align: center;
+.prof {
+  margin-top: 20px;
 }
-section{
-    text-align: center;
+h4 {
+  margin-left: 20px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+p {
+  font-size: 19px;
+  font-weight: 500;
+}
+.create input {
+  background-color: rgb(250, 250, 250);
+  text-align: left;
+  width: 40%;
+  letter-spacing: 2px;
+  display: flex;
+  margin: 20px;
+  margin-left: 30%;
+  outline: none;
+  text-indent: 7%;
+  border: none;
+  padding: 10px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 19px;
+  color: black;
+}
+#w3review {
+  background-color: rgb(250, 250, 250);
+  text-align: left;
+  width: 40%;
+  letter-spacing: 2px;
+  display: flex;
+  margin: 20px;
+  margin-left: 30%;
+  outline: none;
+  text-indent: 7%;
+  border: none;
+  padding: 10px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 19px;
+  color: black;
+}
+section a {
+  color: white;
 }

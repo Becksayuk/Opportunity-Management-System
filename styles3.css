@@ -42,16 +42,19 @@ li a {
   margin-right: 20px;
 }
 a:hover {
-  color: #951d82;
+  color: #bd3f69;
 }
 .logout button {
   padding: 9px 25px;
-  background-color: #951d82;
   border-radius: 50px;
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
   margin-right: 20px;
-  color: white;
+  background-color: #8d1760;
+  color: #fff;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
 }
 .search input[type="text"] {
   border-radius: 20px;
@@ -60,7 +63,7 @@ a:hover {
   width: 80%;
 }
 .logout button:hover {
-  background-color: #420738;
+  background: #bd3f69;
 }
 h3 {
   margin-right: auto;
@@ -68,38 +71,37 @@ h3 {
 }
 mark {
   background-color: rgba(0, 0, 0, 0);
-  color: #951d82;
+  color: #bd3f69;
 }
 .leftside {
   width: 33%;
-  background-color: rgb(212, 212, 212);
 }
 .middleside {
   width: 34%;
-  background-color: rgb(202, 202, 202);
 }
 .middleside button {
   padding: 9px 25px;
-  margin-left: 40%;
-  background-color: #951d82;
+  margin-left: 42%;
+  background-color: #8d1760;
+  outline: none;
+  border: none;
   border-radius: 50px;
-  transition: all 0.3s ease 0s;
+  font-weight: 500;
   cursor: pointer;
   margin-right: 20px;
   color: white;
 }
 .middleside button:hover {
-  background-color: #420738;
+  background-color: #bd3f69;
 }
 .rightside {
   width: 33%;
-  background-color: rgb(214, 214, 214);
 }
 .formBx {
   margin: 40px 130px 50px 130px;
   border: none;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
-  border-top: 3px solid #951d82;
+  border-top: 3px solid #8d1760;
   height: 37%;
   padding: 30px;
   border-radius: 10px;
@@ -109,7 +111,7 @@ mark {
   letter-spacing: 1px;
 }
 .formBx a {
-  color: #951d82;
+  color: #bd3f69;
 }
 .formBx p {
   font-size: 19px;
@@ -123,13 +125,19 @@ mark {
 }
 .cancel_delete button {
   background-color: black;
+  border: none;
+  outline: none;
+  font-weight: 500;
 }
 .cancel_delete button:hover {
   background-color: rgb(77, 77, 77);
 }
 .pending button {
-  background-color: #951d82;
+  background-color: #8d1760;
+  border: none;
+  outline: none;
+  font-weight: 500;
 }
 .pending button:hover {
-  background-color: #420738;
+  background: #bd3f69;
 }
