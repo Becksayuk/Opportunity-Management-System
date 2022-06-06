@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.formBx {
+  margin: 80px 100px 50px 130px;
+  border: none;
+  margin-left: 30%;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  border-top: 3px solid #8d1760;
+  height: 37%;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 17px;
+  color: black;
+  letter-spacing: 1px;
+  width: 30%;
+}
+.formBx p {
+  text-align: center;
+}
+.button1 button {
+  padding: 9px 25px;
+  border-radius: 50px;
+  margin-right: 20px;
+  background-color: #8d1760;
+  color: #fff;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button1 button:hover {
+  background-color: #bd3f69;
+}
+.formBx .button1 button {
+  color: white;
+}
+
+.button2 button {
+  padding: 9px 25px;
+  border-radius: 50px;
+  margin-right: 20px;
+  margin-top: 25px;
+  background-color: #8d1760;
+  color: #fff;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button2 button:hover {
+  background-color: #bd3f69;
+}
+.formBxskill .button3 button {
+  color: white;
+}
+.button3 button {
+  padding: 9px 25px;
+  border-radius: 50px;
+  margin-right: 20px;
+  margin-top: 25px;
+  margin-left: 40%;
+  background-color: #8d1760;
+  color: #fff;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button3 button:hover {
+  background-color: #bd3f69;
+}
+.formBx .button3 button {
+  color: white;
+}
+.button4 button {
+  padding: 9px 25px;
+  border-radius: 50px;
+  margin-right: 20px;
+  margin-top: 25px;
+  margin-left: 3%;
+  background-color: #8d1760;
+  color: #fff;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button4 button:hover {
+  background-color: #bd3f69;
+}
+.formBx .button4 button {
+  color: white;
+}
+textarea {
+  width: 70%;
+  margin-bottom: 7%;
+}
+.formBxskill {
+  margin: 80px 100px 50px 130px;
+  border: none;
+  margin-left: 30%;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  border-top: 3px solid #8d1760;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+  height: 60%;
+  font-size: 17px;
+  color: black;
+  letter-spacing: 1px;
+  width: 30%;
+}
+.formBxskill .button3 input {
+  margin-left: 22%;
+  margin-top: 20px;
+  width: 50%;
+}
+.formBxskill p {
+  text-align: center;
+}
+.formBxskill h4 {
+  text-align: center;
+}
