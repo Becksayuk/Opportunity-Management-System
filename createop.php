@@ -1,3 +1,7 @@
+<?php
+include_once "view/employer_view.php";
+
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,7 +16,7 @@
             <h3>OPPORTUNITY<mark>SEEKER</mark></h3>
             <ul>
                 <li><a href="apdashboard.html">Home</a</li>
-                <li><a href="apdashboard2.html"><mark>Opportunity</mark</a></li>
+                <li><a href="createop.php"><mark>Opportunity</mark</a></li>
                 <li><a href="apdashboard3.html">Application</a></li>
             </ul>
          <a href="login.html"><button>Logout</button></a>
@@ -24,8 +28,12 @@
             <p>Fill in the following information:</p>
             <input type="text" placeholder="Enter Company Name">
             <input type="text" placeholder="Enter Opportunty Title">
-            <input type="text" placeholder="Enter Requirement Skillset">
-            <p>Enter Opportunity Description<p/>
+            <p>Select Category</p>
+            <?php
+            $category = new EmployerView();
+            $category->selectCategoryView();
+            ?>
+            <br><br><p>Enter Opportunity Description</p>
                 <textarea id="w3review" name="w3review" rows="4" cols="50">
                 </textarea>
             <p>Enter Application Deadline</p>
